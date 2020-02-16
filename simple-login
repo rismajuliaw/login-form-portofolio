@@ -1,0 +1,29 @@
+<html>
+    <head>
+    <title>Risma login sample</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <form>
+            <h2 style="text-justify: auto;">Login</h2>
+            <input type="text" placeholder="Username">
+            <input type="password" placeholder="Password">
+            <button type="submit">Login</button><br>
+            <p>Don't have an account yet? Please sign up!</p><br>
+            <button formaction="signup.html" id="signup">Sign Up</button>
+            </ul>
+        </form>
+
+        <script type="text/javascript">
+            // confirm("Click OK if you already have alredy had an account")
+            var r = confirm("Click OK if you already already have an account");
+            if (r == true) {
+                window.alert("Please fill in the login form");
+             } else {
+                window.alert("You haven't had an account, let's sign up first!");
+             }
+        </script>
+
+    </body>
+</html>
